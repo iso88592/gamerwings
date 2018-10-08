@@ -1,24 +1,4 @@
 ﻿<?php
-/*
-$myObj = new stdClass;
-$myObj->name = "John";
-$myObj->age = 30;
-$myObj->city = "New York";
-
-$myJSON = json_encode($myObj);
-
-echo $myJSON;
-
-$decodedJSON = json_decode($myJSON);
-echo "<br>";
-echo "<br>";
-echo "Name: " . $decodedJSON->name;
-echo "<br>";
-echo "Age: " . $decodedJSON->age;
-echo "<br>";
-echo "City: " . $decodedJSON->city;
-*/
-
 require_once("mysqlConn.php");
 
 $ObjForJSON = new stdClass;

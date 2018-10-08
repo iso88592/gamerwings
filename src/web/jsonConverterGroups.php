@@ -14,7 +14,7 @@ if ($result->num_rows > 0){
         $ObjForJSON->description = $row["description"];
         $JSON = json_encode($ObjForJSON);
         echo $JSON;
-        echo "<br><br>";
+        echo "<br>";
     }
 } else {
     echo "0 results";
